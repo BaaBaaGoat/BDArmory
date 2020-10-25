@@ -39,3 +39,29 @@ This mod is now being maintained in BahamutoD's absence by Joe Korinek (Papa_Joe
 Please read about the license at
 https://creativecommons.org/licenses/by-sa/2.0/
 before attempting to modify and redistribute it.
+
+-----
+
+
+
+小咩的补充:
+
+编译操作:
+
+- 装vs2019
+- 双击\BDArmory\BDArmory.sln打开
+  - 可能提示缺.net库 会弹出链接 在弹出的链接里下载对应版本的库 一路next安装即可
+- ![image-20201026005952904](image-20201026005952904.png)
+
+右边我选中(标蓝)的那2行字上分别右键点属性 左面就会弹出如图界面 "文件夹处填ksp安装路径下的KSP_x64_Data\Managed\文件夹 然后点添加文件夹
+
+最上面debug改成release 然后按f7编译
+
+会报错7za啥啥找不着 不用管 已经编译成功了
+
+![image-20201026010031528](image-20201026010031528.png)
+
+然后
+
+BDArmory\Distribution文件夹里东西贴进KSP的gamedata文件夹就可以用了
+
